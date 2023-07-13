@@ -1,0 +1,134 @@
+
+.header {
+    position : sticky ;
+    top : 0 ;
+    left : 0 ;
+    z-index : 1 ;
+    display : flex ;
+    align-items : center ;
+    justify-content : space-between ;
+    padding : 1.5rem 3.5rem ;
+    background-color : #757e99;;
+    box-shadow : 0 3px 5px rgb(49, 47, 47) ;
+    
+  
+    }
+  
+  /* estilo texto */
+  
+  
+  .nav{
+      background-color: #0b97af;
+      padding: 10px;
+      margin: 50px;
+      justify-content: center;
+      align-items: center;
+      color:white;
+      
+  }
+  
+  
+  
+    .container {
+      width: 100%;
+      max-width: 1140px;
+      padding: 0 20px;
+      margin: 0 auto;
+    
+      
+      
+    }
+    .background {
+      background-color: #4e5d8a;
+    
+    }
+  
+  
+  
+  .text-center{
+      text-align: center;
+      
+      
+  
+  }
+  
+  
+  .text{
+    
+    padding: 100px;
+    justify-content: left;
+    text-align: center;
+  
+  
+  }
+  
+  /* estilo footer */
+  .footer{
+    margin-top: 5rem;
+    margin-bottom: -1rem;
+    display: flex;
+    flex-direction: row-reverse;
+    width: auto;
+    justify-content: center;
+    height: 40px;
+    background-color: rgb(49, 47, 47);
+    color: white;
+      
+  }
+  .carousel, .carousel-inner > .item > img {
+    width: 50%;
+    height: 100%;
+    margin: auto;
+  }
+  .container-carrousel{
+    background-color: #4e5d8a;
+  }
+  
+  body {
+    margin: 0;
+  }
+  .container-blog {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-gap: 10px;
+  }
+  .container-blog__article {
+    background-color: #66ce92;
+  }
+  .container-blog__img {
+    width: 100%;
+    height: 100%;
+  }
+  .first {
+    grid-area: 1 / 1 ;
+    margin: 15px;
+    
+  }
+  .second {
+    grid-area: 1 / 3 ;
+    margin: 15px;
+  }
+  .three {
+    grid-area: 1 / 2 ;
+    margin: 15px;
+  }
+  .four {
+    grid-area: 2 / 2 ;
+    margin: 15px;
+  }
+  .five {
+    grid-area: 2 / 1 ;
+    margin: 15px;
+  }
+  .six {
+    grid-area: 2 / 3 ;
+    margin: 15px;
+  }
+  .container-blog-parrafo {
+    margin: 0;
+    text-align: center;
+    background-color: rgb(49, 47, 47);
+    color: white;
+  }
+
